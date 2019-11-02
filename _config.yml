@@ -1,4 +1,31 @@
-theme: jekyll-theme-minimal
-echo '' >> _config.yml
-echo 'title: devianparrap' >> _config.yml
-echo 'description: Devian Parra' >> _config.yml
+title: Devian Parra - Economist
+logo:  # you can add own logo.
+description: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
+baseurl: "/derrick" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Author Settings
+author:
+  name: Derrick Wells
+  image: '/assets/img/01.jpg'
+  job: Independent Product Designer
+  bio: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
+  email: forexample@website.com
+
+# Contact links
+contact:
+  - name: Twitter
+    link: https://twitter.com/
+  - name: Facebook
+    link: https://facebook.com/
+  - name: Instagram
+    link: https://instagram.com/
+    
+    # Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+  - jekyll/tagging
+
