@@ -13,6 +13,18 @@
     <![endif]-->
   </head>
   <body>
+    <header class="page-header"  
+        role="banner">
+      <h1 class="project-name">Areg Sarkissian</h1>
+</header>
+<main id="content" class="main-content" role="main">
+       {{ content }}
+      <footer class="site-footer">
+        &copy; 2019 Areg Sarkissian
+      </footer>
+</main>
+      
+    
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
