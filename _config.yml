@@ -2,4 +2,3 @@ theme: jekyll-theme-minimal
 echo '' >> _config.yml
 echo 'title: devianparrap' >> _config.yml
 echo 'description: Devian Parra' >> _config.yml
-echo '# hello world' >> index.md
